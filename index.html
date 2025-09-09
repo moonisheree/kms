@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Webpage with Link, Video, and Gallery</title>
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #F3F6F3;
+    }
+
+    header {
+      background: #1E5DAC;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 0 0 2rem 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: white;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #fffefc;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 1rem;
+      color: white;
+      font-weight: 500;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #96ADD6;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #25344F;
+      border-radius: 2rem 2rem 0 0;
+      margin-top: 2rem;
+      color: white;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      margin-top: 1rem;
+      border-radius: 2rem;
+      background: #ff6f91;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ff3b6b;
+    }
+
+    .gallery {
+      margin-top: 30px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      width: 23%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery-wrapper {
+      width: 100%;   
+      overflow-x: auto;    
+      white-space: nowrap;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+    }
+
+    .gallery-wrapper img {
+      height: 250px;           /* set image height */
+      margin-right: 10px;      /* spacing between images */
+      border-radius: 8px;
+      display: inline-block;   /* stay in one horizontal line */
+    }
+
+    /* optional: make scroll smooth on mousewheel or trackpad */
+    .gallery-wrapper::-webkit-scrollbar {
+      height: 8px;
+    }
+    .gallery-wrapper::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="color: #E8D3C1; text-align: center;">ᯓ✦∘˙Muna Songweera˙∘✦ᯓ</h1>
+    <h1 style="color: #B7C5DA; text-align: center;">ᶻ 𝘇 𐰁 ────────────୨ৎ──────────── 𐰁 𝘇 ᶻ</h1>
+    <nav>
+      <a href="#about">⋆｡‧˚ʚPrefaceɞ˚‧｡⋆</a>
+      <a href="#projects">⋆｡𖦹 °.Personal info⋆❀˖°</a>
+      <a href="#contact">⋆.˚✮Education background✮˚.⋆</a>
+      <a href="#uh">˚₊‧꒰ა Activities ໒꒱ ‧₊˚</a>
+      <a href="#ha">⁺‧₊˚ ཐི⋆Certificates⋆ཋྀ ˚₊‧⁺</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>⋆｡‧˚ʚPrefaceɞ˚‧｡⋆</h2>
+    <div class="card">
+      <img src="ehe.png" alt="uh" style='float: left; width:150px; height:150px;'>
+      <p>My name is Muna Songweera, I am currently pursuing my passion for coding. In this portfolio will hold a collection of my academic and personal projects completed in my life in the past and in the futrue. It shows my growth and development as a programmer</p>
+    </div>
+  </section>
+
+      <h1 style="color: #B7C5DA; text-align: center;">ᶻ 𝘇 𐰁 ────────────୨ৎ──────────── 𐰁 𝘇 ᶻ</h1>
+
+    <section id="projects">
+    <h2>⋆｡𖦹 °.Personal info⋆❀˖°</h2>
+
+    <div class="card">
+      <ul>
+      <li>First name: Muna</li>
+      <li>Surname:Songweera</li>
+      <li>Date of birth: 14 February 2010</li>
+      <li>Age: 15</li>
+      <li>Nationality: Thai</li>
+      <li>Major: Science and Math</li>
+      <li>Mother: Muntita Kongyon</li>
+      <li>Father:Habeebullah Songweera</li>
+      <li>Personal interests: culture, coding and drawing</li>
+      <li>Strengths: creativity, team player, diplomatic and fast learner</li>
+
+      <h2> Contact info </h2>
+      <li> Phone number: 064540960</li>
+      <li> Email: muna.s@chindamanee.ac.th</li>
+      <li> Address: Soi Theodthai 9, Bangyirua, Thonburi, Bangkok, Thailand</li>
+      </ul>
+    </div>
+    </section>
+
+    <h1 style="color: #B7C5DA; text-align: center;">ᶻ 𝘇 𐰁 ────────────୨ৎ──────────── 𐰁 𝘇 ᶻ</h1>
+    <section id="contact">
+    <h2>Education background</h2>
+    <div class="card">  
+      <div class="image-stack">
+       <img src="ok.png" alt="uh" style='float: centre; width:150px; height:150px;'>
+       <p style="color:#617891;">Primary Chindamanee school Average GPA: 90</p>
+       <img src="ok.png" alt="uh" style= width:150px; height:150px;'>
+       <p style="color:#617891;">Lower Secondary Chindamanee school Average GPA: 93</p>
+       <img src="ok.png" alt="uh" style= width:150px; height:150px;'>
+       <p style="color:#617891;">Upper secondary Chindamanee school Average GPA: •ᴗ•</p>
+      </div>
+    </div>
+ </section>
+    <h1 style="color: #B7C5DA; text-align: center;">ᶻ 𝘇 𐰁 ────────────୨ৎ──────────── 𐰁 𝘇 ᶻ</h1>
+   <section id="uh">
+      <h2>˚₊‧꒰ა Activities ໒꒱ ‧₊˚</h2>
+<div class="gallery-wrapper">
+    <img src="blah.png" alt="Photo 1">
+    <img src="isureamworking.png" alt="Photo 2">
+    <img src="four.png" alt="Photo 3">
+    <img src="balls.png" alt="Photo 4">
+  </div>
+  </section>
+    <h1 style="color: #B7C5DA; text-align: center;">ᶻ 𝘇 𐰁 ────────────୨ৎ──────────── 𐰁 𝘇 ᶻ</h1>
+   <section id="ha">
+      <h2>⁺‧₊˚ ཐི⋆Certificates⋆ཋྀ ˚₊‧⁺</h2>
+<div class="gallery-wrapper">
+    <img src="a.png" alt="Photo 1">
+    <img src="b.png" alt="Photo 2">
+    <img src="c.png" alt="Photo 3">
+    <img src="de.png" alt="Photo 4">
+    <img src="f.png" alt="Photo 4">
+  </div>
+  </section>
+
+  <footer>
+    <p>⋆｡𖦹 °.Made by Muna Songweera for a project⋆❀˖° </p>
+  </footer>
+</body>
+</html>
